@@ -1,0 +1,24 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* Tailwind Configuration */
+@import 'tailwindcss';
+
+/* Tailwind Layers */
+/* Base Layer */
+@layer base {
+  /* Global Reset / Default Style Override */
+}
+
+/* Components Layer */
+@layer components {
+  /* Reusable Component Style Define Like Button, Card, Alert, etc */
+}
+
+/* Utilities Layer */
+@layer utilities {
+  /* Custom Utility Class Define Like Custom Font, Spacing, Color Utilities, etc */
+  .font-manrope {
+    font-family: 'Manrope', sans-serif;
+  }
+}
